@@ -1,0 +1,1 @@
+x86_64-w64-mingw32-gcc -o test.exe ScreenCaptureUtility.c -luser32 -lgdi32 -lshcore -O2 -mwindows -s
