@@ -86,6 +86,8 @@ const int SCREENSHOT_DELAY = 500;     // 截图防误触延迟(ms)
 cl screenshot_utility.cpp /link Shcore.lib Gdiplus.lib
 ```
 
+[build.sh](build.sh) 是在 mac 下进行交叉编译 Win11 平台的命令
+
 ## 常见问题
 
 **Q: 截图保存失败怎么办？**
