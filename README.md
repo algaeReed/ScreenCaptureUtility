@@ -1,4 +1,3 @@
-```markdown
 # 屏幕截图工具说明文档
 
 ## 功能概述
@@ -35,13 +34,15 @@
 ### 截图保存
 
 截图会自动保存到桌面，文件名格式为：
+
 ```
 
 screenshot_YYYYMMDD_HHMMSS.[bmp|jpg]
 
-````
+```
 
 ## 配置选项
+
 程序通过修改源代码中的全局配置进行定制：
 
 ```c
@@ -63,7 +64,7 @@ const int EXIT_KEY = VK_ESCAPE;       // 退出键
 // 程序行为
 const int KEY_CHECK_INTERVAL = 100;   // 热键检测间隔(ms)
 const int SCREENSHOT_DELAY = 500;     // 截图防误触延迟(ms)
-````
+```
 
 ## 技术细节
 
@@ -117,7 +118,3 @@ C:\Users\[用户名]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Start
 ## 许可证
 
 MIT License
-
-```
-
-```
